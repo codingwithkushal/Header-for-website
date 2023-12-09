@@ -1,0 +1,39 @@
+body{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+ul li a{
+  font-weight: bolder; 
+ text-decoration: none;
+ color: black;
+}
+.navbar li{
+  float:left;
+  list-style: none; 
+  margin: 13px 20px;
+  
+}
+.clearfix{
+  float: right;
+  padding: 12px 75px;
+}
+.navbar input{
+  border: 2px solid black;
+  border-radius: 14px;
+  padding: 3px 17px;
+  width: 129px;
+}
+li:hover{
+    box-shadow: 5px 5px 5px 5px ;
+}
+button:hover {
+    box-shadow: 5px 5px 5px 5px ;
+    cursor: pointer;
+  }
+button{
+    font-weight: bolder;
+    border: none;
+    padding: 14px 20px;
+    background-color: transparent;
+  }
